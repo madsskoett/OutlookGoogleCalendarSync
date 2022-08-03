@@ -477,7 +477,7 @@ namespace OutlookGoogleCalendarSync.Forms {
 
                     cbPrivate.Checked = profile.SetEntriesPrivate;
                     ddPrivacy.Enabled = profile.SetEntriesPrivate;
-                    ddPrivacy.Items.Clear();
+                    //ddPrivacy.Items.Clear();
                     Dictionary<OlSensitivity, String> privacy = new Dictionary<OlSensitivity, String>();
                     privacy.Add(OlSensitivity.olPrivate, "Private");
                     privacy.Add(OlSensitivity.olNormal, "Public");
